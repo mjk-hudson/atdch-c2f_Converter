@@ -1,0 +1,14 @@
+{
+    "lang": "en-us",
+    "name": "c-to-f app",
+    "short_name": "Celsius to Fahrenheit",
+    "description": "A simple app to convert Celsius to Fahrenheit",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icon512.png",
+            "sizes": "512x512"
+                   }
+    ]
+}

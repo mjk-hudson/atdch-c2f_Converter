@@ -4,10 +4,16 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="manifest" href="/manifest.json" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <script src="script.js"></script>
+    <script>
+        if('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('sw.js'), {scope: './'};
+        }
+    </script>
     <title>Degree C to F</title>
 </head>
 
